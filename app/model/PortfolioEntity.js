@@ -18,6 +18,10 @@ Ext.define('app.model.PortfolioEntity', {
 
         belongsTo: 'CategoryEntity',
 
+        hasMany: {
+            model: 'PortfolioPageEntity', name: 'portfolioPage'
+        },
+
         validations: [{
             type: 'presence', field: 'title'
         }, {

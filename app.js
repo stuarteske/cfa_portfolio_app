@@ -24,7 +24,8 @@ Ext.application({
     models: [
         'DepartmentEntity',
         'CategoryEntity',
-        'PortfolioEntity'
+        'PortfolioEntity',
+        'PortfolioPageEntity'
     ],
 
     stores: [
