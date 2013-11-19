@@ -9,13 +9,12 @@ Ext.define('app.view.departments.DepartmentCategorySelectorDataView', {
     ],
 
     config: {
-        title: 'DataView Demo',
         width: '200px',
 
         store:  {
-            xtype: 'xtypeCategoryDataStore'
+            xtype: 'xtypeCategoriesDataStore'
         },
-        itemTpl: '<div class="navItem" data-id="{departmentId}"><span>{title}</span></div>'
+        itemTpl: '<div class="categoryItem" data-id="{slug}"><img src="{image}" /></div>'
     },
 
     initialize: function( obj, eOpts ) {

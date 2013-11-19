@@ -7442,3 +7442,21 @@ body.x-desktop {
 .x-grid .x-grid-summaryrow .x-grid-cell {
   border-color: #C0C0C0;
 }
+
+/********************
+ * CUSTOM
+ ********************/
+
+.navItem {
+    background-color: #d0d0d0;
+    height: 80px;
+}
+.navItem span {
+    display: block;
+    width: 100px;
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 27px 0px;
+}
+

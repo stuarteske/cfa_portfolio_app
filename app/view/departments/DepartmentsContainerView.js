@@ -5,22 +5,25 @@ Ext.define('app.view.departments.DepartmentsContainerView', {
 
     requires: [
         'Ext.Container',
-        'app.view.departments.DepartmentsSidebarContainerView'
+        'app.view.departments.DepartmentsSidebarContainerView',
+        'app.view.departments.DepartmentCategorySelectorDataView'
     ],
 
     config: {
         fullscreen: true,
         layout: 'hbox',
 
-        items: [{xtype:'xtypeDepartmentsSidebarContainerView'},{
+        items: [
+            {xtype:'xtypeDepartmentsSidebarContainerView'},
+            {
             flex:1,
-            html: 'flex 1',
-            style: 'background-color: #eeffdd;'
-        }]
+            xtype: 'xtypeDepartmentCategorySelectorDataView'
+            }
+        ]
     },
 
     initialize: function( obj, eOpts ) {
-        console.log('Init: app.view.DepartmentsContainerView');
+        console.log('Init: app.view.departments.DepartmentsContainerView');
 
         this.callParent(arguments);
     }

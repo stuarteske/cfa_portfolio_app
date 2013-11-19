@@ -20,6 +20,9 @@ Ext.define('app.store.DepartmentsData', {
             id: 'departmentproxy'
         },
         data: [{
+            title: 'All',
+            slug: 'all'
+        }, {
             title: 'Design',
             slug: 'design'
         }, {

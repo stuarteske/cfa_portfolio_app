@@ -8,6 +8,8 @@ Ext.define('app.model.CategoryEntity', {
             name: 'slug', type: 'string'
         }, {
             name: 'department', type: 'string'
+        }, {
+            name: 'image', type: 'string'
         }],
 
         idProperty: 'slug',

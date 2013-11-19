@@ -15,7 +15,7 @@ Ext.define('app.view.common.SidebarLogoContainerView', {
 
         items: [{
             html: 'logo 200x200px',
-            style: 'background-color: lime;'
+            style: 'background-color: #c0c0c0;'
         }]
     },
 
