@@ -34,7 +34,7 @@ Ext.define('app.controller.Home', {
             //this.getMainView().add({xtype: 'xtypeDepartmentsContainerView'});
             //console.log(this.getMainView());
 
-            window.location.hash = "#departments";
+            //window.location.hash = "#departments";
         });
     },
 

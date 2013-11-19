@@ -4,21 +4,18 @@ Ext.define('app.view.departments.DepartmentsContainerView', {
     xtype: 'xtypeDepartmentsContainerView',
 
     requires: [
-        'Ext.Container'
+        'Ext.Container',
+        'app.view.departments.DepartmentsSidebarContainerView'
     ],
 
     config: {
         fullscreen: true,
-        layout: 'fit',
-        id: 'id-departments-container-view',
+        layout: 'hbox',
 
-        layout: {
-            type: 'card'
-        },
-
-        items: [{
-            html: 'Departments Container View',
-            style: 'background-color: #ffeedd;'
+        items: [{xtype:'xtypeDepartmentsSidebarContainerView'},{
+            flex:1,
+            html: 'flex 1',
+            style: 'background-color: #eeffdd;'
         }]
     },
 

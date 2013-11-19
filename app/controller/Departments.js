@@ -40,6 +40,8 @@ Ext.define('app.controller.Departments', {
 
         //this.getMainView().add(Ext.create('app.view.departments.DepartmentsContainerView'));
 
+        //this.getMainView().add({xtype: 'xtypeDepartmentsContainerView'});
+
 //        var thisObj = this;
 //
 //        var stid = setTimeout(function(){
