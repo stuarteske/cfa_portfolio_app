@@ -21,6 +21,16 @@ Ext.application({
         'Main'
     ],
 
+    models: [
+        'DepartmentEntity',
+        'CategoryEntity'
+    ],
+
+    stores: [
+        'DepartmentsData',
+        'CategoriesData'
+    ],
+
     controllers: [
         'Base',
         'Categories',
