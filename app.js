@@ -23,12 +23,14 @@ Ext.application({
 
     models: [
         'DepartmentEntity',
-        'CategoryEntity'
+        'CategoryEntity',
+        'PortfolioEntity'
     ],
 
     stores: [
         'DepartmentsData',
-        'CategoriesData'
+        'CategoriesData',
+        'PortfolioData'
     ],
 
     controllers: [

@@ -11,9 +11,9 @@ Ext.define('app.view.categories.CategoriesPortfolioSelectorDataView', {
         width: '200px',
 
         store:  {
-            xtype: 'xtypeCategoriesDataStore'
+            xtype: 'xtypePortfolioDataStore'
         },
-        itemTpl: '<div class="categoryItem" data-id="{slug}"><img src="{image}" /></div>'
+        itemTpl: '<div class="portfolioItem" data-id="{slug}"><img src="{selectorImage}" /></div>'
     },
 
     initialize: function( obj, eOpts ) {

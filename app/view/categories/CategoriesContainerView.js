@@ -6,7 +6,7 @@ Ext.define('app.view.categories.CategoriesContainerView', {
     requires: [
         'Ext.Container',
         'app.view.categories.CategoriesSidebarContainerView',
-        'app.view.categories.CategoriesPortSelectorDataView'
+        'app.view.categories.CategoriesPortfolioSelectorDataView'
     ],
 
     config: {

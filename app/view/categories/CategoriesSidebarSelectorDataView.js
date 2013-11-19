@@ -11,7 +11,7 @@ Ext.define('app.view.categories.CategoriesSidebarSelectorDataView', {
         width: '200px',
 
         store:  {
-            xtype: 'xtypeDepartmentDataStore'
+            xtype: 'xtypeCategoriesDataStore'
         },
         itemTpl: '<div class="navItem" data-id="{slug}"><span>{title}</span></div>'
     },

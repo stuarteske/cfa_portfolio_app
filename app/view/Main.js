@@ -6,7 +6,8 @@ Ext.define('app.view.Main', {
     requires: [
         'Ext.Container',
         'app.view.MainPreApp',
-        'app.view.departments.DepartmentsContainerView'
+        'app.view.departments.DepartmentsContainerView',
+        'app.view.categories.CategoriesContainerView'
     ],
 
     config: {
@@ -19,7 +20,7 @@ Ext.define('app.view.Main', {
         },
 
         items: [
-            { xtype: 'xtypeDepartmentsContainerView' }
+            { xtype: 'xtypeCategoriesContainerView' }
         ]
     },
 
