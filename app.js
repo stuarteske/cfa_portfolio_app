@@ -31,7 +31,8 @@ Ext.application({
     stores: [
         'DepartmentsData',
         'CategoriesData',
-        'PortfolioData'
+        'PortfolioData',
+        'PortfolioPageData'
     ],
 
     controllers: [
