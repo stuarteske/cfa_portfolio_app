@@ -9,7 +9,7 @@ Ext.define('app.store.PortfolioPageData', {
 
     config: {
         model: 'app.model.PortfolioEntity',
-        storeId: 'idPortfolioDataStore',
+        storeId: 'PortfolioDataStore',
         autoLoad: true,
         sorters: [{
             property: 'slug',

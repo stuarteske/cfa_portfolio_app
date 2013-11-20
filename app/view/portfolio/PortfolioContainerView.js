@@ -5,15 +5,30 @@ Ext.define('app.view.portfolio.PortfolioContainerView', {
 
     requires: [
         'Ext.Container',
-        //'app.view.departments.DepartmentsSidebarContainerView',
-        //'app.view.departments.DepartmentCategorySelectorDataView'
+        'app.view.portfolio.PortfolioPageScrollContainerView'
     ],
 
     config: {
-        fullscreen: true,
-        layout: 'fit',
 
-        items: []
+//        items: [
+//            Ext.create('Ext.Carousel', {
+//            fullscreen: true,
+//
+//            defaults: {
+//                styleHtmlContent: true
+//            },
+//
+//            items: [
+//                {
+//                    html : 'Item 1',
+//                    style: 'background-color: #759E60'
+//                },
+//                {
+//                    html : 'Item 2',
+//                    style: 'background-color: #5E99CC'
+//                }
+//            ]
+//        })]
     },
 
     initialize: function( obj, eOpts ) {

@@ -7,21 +7,19 @@ Ext.define('app.view.Main', {
         'Ext.Container',
         'app.view.MainPreApp',
         'app.view.departments.DepartmentsContainerView',
-        'app.view.categories.CategoriesContainerView'
+        'app.view.categories.CategoriesContainerView',
+        'app.view.portfolio.PortfolioContainerView',
+        'app.view.portfolio.PortfolioPageScrollContainerView'
     ],
 
     config: {
-        fullscreen: true,
-        layout: 'fit',
+        //fullscreen: true,
+        layout: 'card',
         id: 'idMainContainer',
-
-        layout: {
-            type: 'card'
-        },
-
-        items: [
-            { xtype: 'xtypeCategoriesContainerView' }
-        ]
+        style:'background-color:#ffffff;',
+        items: [{
+            xtype: 'xtypePortfolioPageScrollContainerView'
+        }]
     },
 
     initialize: function( obj, eOpts ) {
