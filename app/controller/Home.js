@@ -48,7 +48,7 @@ Ext.define('app.controller.Home', {
     onMainPreAppShow: function () {
         console.log('Show: app.view.MainPreApp');
 
-        this.fireEvent('initDataLoaded', this);
+        //this.fireEvent('initDataLoaded', this);
     },
 
 
