@@ -9,7 +9,7 @@ Ext.define('app.store.CategoriesData', {
 
     config: {
         model: 'app.model.CategoryEntity',
-        storeId: 'idCategoriesDataStore',
+        storeId: 'CategoriesDataStore',
         autoLoad: true,
         sorters: [{
             property: 'title',
